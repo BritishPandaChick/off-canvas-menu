@@ -55,10 +55,10 @@ h1 {
   border-radius: 4px;
   display: block;
   padding: 10px 0;
-  width: 60px;
+  width: 60%;
   position: absolute;
   left: 20%;
-  top: 200px;
+  top: 100px;
   cursor: pointer;
   text-transform: uppercase;
 }
@@ -113,6 +113,27 @@ h1 {
 }
 
 /* Adding delay to link animation */
-#tm:checked ~ .sidenav li:nth-child() b {
+/* One can use jQuery for creating the delayed effect, but this uses manual CSS */
+#tm:checked ~ .sidenav li:nth-child(1) b {
   transition-delay: 0.8s;
+}
+
+#tm:checked ~ .sidenav li:nth-child(2) b {
+  transition-delay: 0.16s;
+}
+
+#tm:checked ~ .sidenav li:nth-child(3) b {
+  transition-delay: 0.24s;
+}
+
+#tm:checked ~ .sidenav li:nth-child(4) b {
+  transition-delay: 0.32s;
+}
+
+#tm:checked ~ .sidenav li:nth-child(5) b {
+  transition-delay: 0.40s;
+}
+
+#tm:checked ~ .sidenav li:nth-child(6) b {
+  transition-delay: 0.48s;
 }
