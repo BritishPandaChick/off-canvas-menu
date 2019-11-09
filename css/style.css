@@ -115,7 +115,7 @@ h1 {
 /* Adding delay to link animation */
 /* One can use jQuery for creating the delayed effect, but this uses manual CSS */
 #tm:checked ~ .sidenav li:nth-child(1) b {
-  transition-delay: 0.8s;
+  transition-delay: 0.08s;
 }
 
 #tm:checked ~ .sidenav li:nth-child(2) b {
